@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    padding: 10px;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+/* Skills */
+#skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#skills ul li {
+    display: flex;
+    align-items: center;
+}
+
+#skills ul li img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+/* Recommendations */
+#recommendation-list {
+    list-style: none;
+    padding: 0;
+}
+
+#recommendation-list li {
+    background: #e3f2fd;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Pop-Up */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: #fff;
+    color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#popup-close {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

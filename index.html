@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Project Details</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h1>My Name</h1>
+        <img src="profile_name.png" alt="Profile Picture">
+        <p>Brief summary about yourself.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><img src="html_logo.png" alt="HTML"> HTML</li>
+            <li><img src="css_logo.png" alt="CSS"> CSS</li>
+            <li><img src="js_logo.png" alt="JavaScript"> JavaScript</li>
+            <li><img src="react_logo.png" alt="React"> React</li>
+            <li><img src="node_logo.png" alt="Node.js"> Node.js</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Project 1: Custom Portfolio</li>
+            <li>Project 2: Interactive Calculator</li>
+            <li>Project 3: Booking Form</li>
+        </ul>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+        <ul id="recommendation-list">
+            <li>Great developer with attention to detail!</li>
+            <li>Strong problem-solving skills.</li>
+            <li>Excellent team player.</li>
+        </ul>
+
+        <input type="text" id="new-recommendation" placeholder="Enter a new recommendation">
+        <button>Add Recommendation</button>
+    </section>
+
+    <!-- Pop-Up Message -->
+    <div id="popup-message" class="popup">
+        <div class="popup-content">
+            <span id="popup-text"></span>
+            <button id="popup-close">OK</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
